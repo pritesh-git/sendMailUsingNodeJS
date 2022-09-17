@@ -1,0 +1,28 @@
+{
+    "mailsList": [
+        "abc123@gmail.com",
+        "def546@gmail.com",
+        "ghi422@gmail.com",
+        "jkl576@gmail.com",
+        "mno675@gmail.com",
+        "pqr763@gmail.com",
+        "stu535@gmail.com",
+        "vwx354@gmail.com",
+        "xyz367@gmail.com"
+    ],
+    "mailMsg": {
+        "subject": "Test mail sender",
+        "text": "Testing mail sender body part",
+        "html": "<h1>Hello Receiver</h1><p>Congrats on this mail</p>",
+        "file": [
+            {
+                "filename": "text.txt",
+                "content": "Attachments"
+            },
+            {
+                "filename": "logo",
+                "path": "newImage.png"
+            }
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "send_mail_nodejs",
+  "version": "1.0.0",
+  "description": "Simple node app to demonstrate send mail.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon Server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.2",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.18",
+    "nodemon": "^2.0.7"
+  }
+}
